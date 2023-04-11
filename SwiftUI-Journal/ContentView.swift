@@ -9,16 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var journal = [JournalEntry(content: "jag åt"),
-                   JournalEntry(content: "jag sov"),
-                   JournalEntry(content: "jag programmerade")]
+    var journal = JournalViewModel()
     
     
     var body: some View {
         NavigationView{
             VStack {
                 List(){
-                    ForEach(journal){ entry in
+                    ForEach(journal.entries){ entry in
                         NavigationLink(destination: JournalEntrryView()){
                             RowView(entry: entry)
                             

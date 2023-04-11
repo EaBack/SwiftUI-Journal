@@ -16,6 +16,7 @@
 		B171AB4D29E57D7E00E7F318 /* SwiftUI_JournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B171AB4C29E57D7E00E7F318 /* SwiftUI_JournalUITestsLaunchTests.swift */; };
 		B1B1ABAE29E5808000DD6390 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B1ABAD29E5808000DD6390 /* JournalEntry.swift */; };
 		B1B1ABB029E586A800DD6390 /* JournalEntrryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B1ABAF29E586A800DD6390 /* JournalEntrryView.swift */; };
+		B1B1ABB229E596AB00DD6390 /* JournalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B1ABB129E596AB00DD6390 /* JournalViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		B171AB4C29E57D7E00E7F318 /* SwiftUI_JournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_JournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B1B1ABAD29E5808000DD6390 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
 		B1B1ABAF29E586A800DD6390 /* JournalEntrryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntrryView.swift; sourceTree = "<group>"; };
+		B1B1ABB129E596AB00DD6390 /* JournalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				B171AB2F29E57D7400E7F318 /* SwiftUI_JournalApp.swift */,
+				B1B1ABB129E596AB00DD6390 /* JournalViewModel.swift */,
 				B171AB3129E57D7400E7F318 /* ContentView.swift */,
 				B171AB3329E57D7D00E7F318 /* Assets.xcassets */,
 				B171AB3529E57D7D00E7F318 /* Preview Content */,
@@ -265,6 +268,7 @@
 			files = (
 				B1B1ABB029E586A800DD6390 /* JournalEntrryView.swift in Sources */,
 				B1B1ABAE29E5808000DD6390 /* JournalEntry.swift in Sources */,
+				B1B1ABB229E596AB00DD6390 /* JournalViewModel.swift in Sources */,
 				B171AB3229E57D7400E7F318 /* ContentView.swift in Sources */,
 				B171AB3029E57D7400E7F318 /* SwiftUI_JournalApp.swift in Sources */,
 			);
