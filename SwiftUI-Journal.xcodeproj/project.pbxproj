@@ -14,6 +14,8 @@
 		B171AB4129E57D7E00E7F318 /* SwiftUI_JournalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B171AB4029E57D7E00E7F318 /* SwiftUI_JournalTests.swift */; };
 		B171AB4B29E57D7E00E7F318 /* SwiftUI_JournalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B171AB4A29E57D7E00E7F318 /* SwiftUI_JournalUITests.swift */; };
 		B171AB4D29E57D7E00E7F318 /* SwiftUI_JournalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B171AB4C29E57D7E00E7F318 /* SwiftUI_JournalUITestsLaunchTests.swift */; };
+		B1B1ABAE29E5808000DD6390 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B1ABAD29E5808000DD6390 /* JournalEntry.swift */; };
+		B1B1ABB029E586A800DD6390 /* JournalEntrryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B1ABAF29E586A800DD6390 /* JournalEntrryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		B171AB4629E57D7E00E7F318 /* SwiftUI-JournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-JournalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B171AB4A29E57D7E00E7F318 /* SwiftUI_JournalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_JournalUITests.swift; sourceTree = "<group>"; };
 		B171AB4C29E57D7E00E7F318 /* SwiftUI_JournalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_JournalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B1B1ABAD29E5808000DD6390 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		B1B1ABAF29E586A800DD6390 /* JournalEntrryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntrryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				B171AB3129E57D7400E7F318 /* ContentView.swift */,
 				B171AB3329E57D7D00E7F318 /* Assets.xcassets */,
 				B171AB3529E57D7D00E7F318 /* Preview Content */,
+				B1B1ABAD29E5808000DD6390 /* JournalEntry.swift */,
+				B1B1ABAF29E586A800DD6390 /* JournalEntrryView.swift */,
 			);
 			path = "SwiftUI-Journal";
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1B1ABB029E586A800DD6390 /* JournalEntrryView.swift in Sources */,
+				B1B1ABAE29E5808000DD6390 /* JournalEntry.swift in Sources */,
 				B171AB3229E57D7400E7F318 /* ContentView.swift in Sources */,
 				B171AB3029E57D7400E7F318 /* SwiftUI_JournalApp.swift in Sources */,
 			);
