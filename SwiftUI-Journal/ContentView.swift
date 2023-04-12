@@ -9,15 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var journal = JournalViewModel()
-    
+    @EnvironmentObject var journal : JournalViewModel
     
     var body: some View {
         NavigationView{
             VStack {
                 List(){
                     ForEach(journal.entries){ entry in
-                        NavigationLink(destination: JournalEntrryView()){
+                        NavigationLink(destination: JournalEntryView(entry: entry)){
                             RowView(entry: entry)
                             
                         }
@@ -25,7 +24,7 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("Journal")
-            .navigationBarItems(trailing: NavigationLink(destination: JournalEntrryView()){
+            .navigationBarItems(trailing: NavigationLink(destination: JournalEntryView()){
                 Image(systemName: "plus.circle")
             })
         }
@@ -45,7 +44,7 @@ struct RowView: View {
         HStack{
             Text(entry.date)
             Spacer()
-            Text(entry.content.prefix(7)+"...")
+            Text(entry.content.prefix(10)+"...")
         }
     }
 }

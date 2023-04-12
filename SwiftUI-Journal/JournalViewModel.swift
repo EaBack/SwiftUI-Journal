@@ -22,4 +22,10 @@ class JournalViewModel : ObservableObject {
         entries.append (JournalEntry(content: "jag sov"))
         entries.append  (JournalEntry(content: "jag programmerade"))
     }
+    
+    func update(entry : JournalEntry, with content : String){
+        if let index = entries.firstIndex(of: entry){//JournalEntry most be Equatable
+            entries[index].content = content
+        }
+    }
 }

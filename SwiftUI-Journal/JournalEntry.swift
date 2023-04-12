@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct JournalEntry : Identifiable{//behöver ingen constructor men vi kann göra det
+struct JournalEntry : Identifiable, Equatable{//behöver ingen constructor men vi kann göra det
     var id = UUID()
     var content : String
     
